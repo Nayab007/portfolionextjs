@@ -166,7 +166,7 @@ border-radius: 100px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: relative;
-    left: -5vw;
+    left: -3vw;
     top: 3rem;
     
     color: black;
