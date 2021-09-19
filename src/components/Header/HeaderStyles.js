@@ -37,7 +37,7 @@ export const Container  = styled.div`
     border-radius: 45px;
     &:hover {
       
-  background-color: #606c88;
+  background-color: #edf2f4;
   padding: 1rem 1rem 0 5rem;
   padding-bottom: 2px;
   border-radius: 30px;
