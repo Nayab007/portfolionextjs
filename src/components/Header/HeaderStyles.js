@@ -27,7 +27,8 @@ export const Container  = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    
+    position: relative;
+    padding-left: 14rem;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
@@ -165,7 +166,7 @@ border-radius: 100px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: relative;
-    left: -4vw;
+    left: -5vw;
     top: 3rem;
     
     color: black;
