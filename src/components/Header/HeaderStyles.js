@@ -8,6 +8,7 @@ import styled from 'styled-components';
 export const Container  = styled.div`
   display: grid;
   position: fixed;
+  
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 3rem;
@@ -88,14 +89,14 @@ export const NavLink = styled.a`
   color: black;
   transition: 0.4s ease;
   &:hover {
-
-    color: #ffffff;
+color: #ffffff;
 
     opacity: 1;
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 16px;
   }
 `;
 
@@ -164,8 +165,9 @@ border-radius: 100px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: relative;
+    left: -4vw;
     top: 3rem;
-    width: 10px;
+    
     color: black;
     &:hover {
     color: #16BFFD;

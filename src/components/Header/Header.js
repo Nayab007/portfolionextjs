@@ -34,7 +34,7 @@ const Header = () =>  (
       <li>
       <Reveal right big>
         <Link href="#about">
-          <NavLink a id="button" href="/images/Nayab-Lone.pdf" target="_blank" role="button" download> <a>Download CV</a></NavLink>
+          <NavLink a id="button" href="/images/Nayab-Lone.pdf" target="_blank" role="button" download><a>DownLoad CV</a></NavLink>
         </Link>
         </Reveal>
       </li>

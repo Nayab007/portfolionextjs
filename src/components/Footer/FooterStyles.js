@@ -109,7 +109,9 @@ export const SocialContainer = styled.div`
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
-		padding-right: 16px;
+		
+		
+		padding-left: 14rem;
 		flex-wrap: wrap;
 	}
 `
@@ -154,7 +156,9 @@ export const LinkTitle = styled.h4`
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
+		
 		font-size: 10px;
+		
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
