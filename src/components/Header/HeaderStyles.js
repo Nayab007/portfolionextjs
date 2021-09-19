@@ -22,9 +22,7 @@ export const Container  = styled.div`
   color: black;
 }
   
-
   
-
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     position: fixed;
@@ -93,7 +91,6 @@ export const NavLink = styled.a`
   transition: 0.4s ease;
   &:hover {
 color: #ffffff;
-
     opacity: 1;
     cursor: pointer;
   }
@@ -110,19 +107,16 @@ export const ContactDropDown = styled.button`
   position: relative;
   background: none;
   font-size: 1.7rem;
-
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   cursor: pointer;
   transition: 0.3s ease;
-
   &:focus {
     outline: none;
   }
   &:hover {
     color: #fff;
   }
-
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.4rem 0;
   }
@@ -138,11 +132,9 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   transition: 0.3s ease;
   opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
   transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
-
   &:hover {
     opacity: 1;
   }
-
   @media ${(props) => props.theme.breakpoints.sm} {
     margin: 2px 0 0 2px;
     width: 12px;

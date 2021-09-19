@@ -109,9 +109,7 @@ export const SocialContainer = styled.div`
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
-		
-		
-		padding-left: 14rem;
+		padding-left: 10rem;
 		flex-wrap: wrap;
 	}
 `

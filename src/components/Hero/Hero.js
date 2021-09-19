@@ -8,15 +8,15 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section row nopadding >
     <LeftSection>
-      <SectionTitle main left>
+      <SectionTitle main left >
          Nayab Lone
          <Zoom right>
-          <Image src="/images/nayab1.jpg" alt="nayab1" width="310" height="310" layout="responsive"/>
+          <Image src="/images/nayab1.jpg" alt="nayab1" width="310" color="#343a40" height="310" layout="responsive"/>
           </Zoom>
         </SectionTitle>
-        <SectionText>
+        <SectionText style={{color: "#343a40"}}>
           Building state-of-the-art, easy-to-use, user-friendly websites and applications is truly a passion of mine.
         </SectionText>
       
