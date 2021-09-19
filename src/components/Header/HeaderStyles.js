@@ -154,7 +154,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 font-size: 1rem;
-margin-left: -12rem;
+margin-left: -14rem;
 color:  black ;
 border-radius: 100px;
   padding: 10px;
@@ -166,9 +166,8 @@ border-radius: 100px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: relative;
-    left: -3vw;
+    left: -4vw;
     top: 3rem;
-    
     color: black;
     &:hover {
     color: #16BFFD;
