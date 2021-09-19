@@ -36,10 +36,12 @@ export const Container  = styled.div`
     padding: 1rem;
     border-radius: 45px;
     &:hover {
+      
   background-color: #606c88;
-  padding: 1rem;
-  border-radius: 20px;
-  padding-top: 0.2rem;
+  padding: 1rem 1rem 0 5rem;
+  padding-bottom: 2px;
+  border-radius: 30px;
+  
   color: black;
     }
   }
