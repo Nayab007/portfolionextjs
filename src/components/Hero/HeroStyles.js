@@ -2,9 +2,11 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
+  color: #343a40;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
+    
     position: relative;
     left: 12px;
     flex-direction: column;
@@ -20,9 +22,11 @@ export const LeftSection = styled.div`
 `;
 export const RightSection = styled.div`
   width: 20%;
+ 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
+    
     position: relative;
     right: 12px;
     flex-direction: column;
@@ -32,7 +36,7 @@ export const RightSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-
+      
     margin: 0 auto;
   }
 `;

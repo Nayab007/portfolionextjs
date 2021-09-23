@@ -33,7 +33,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
@@ -60,7 +60,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #161616;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -242,15 +242,17 @@ export const ButtonFront = styled.button`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
+    
   }
 `
 
 export const LinkContainer = styled.div`
-  margin-left: ${({ large }) => large ? '24px' : '16px'};
+  margin-left: ${({ large }) => large ? '32px' : '16px'};
   transition: 0.3s ease;
   justify-content: center;
   border-radius: 50px;
   padding: 8px;
+  
 
   &:hover {
     background-color: #212d45;

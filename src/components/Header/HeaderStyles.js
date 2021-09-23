@@ -67,6 +67,7 @@ export const Div2 = styled.div`
   
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
+    margin-left: 2rem;
     font-size: 6px;
     grid-area: 1 / 2/  3 / 5;
   }
@@ -160,8 +161,9 @@ border-radius: 100px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     position: relative;
-    left: -4vw;
-    top: 3rem;
+    text-align: right;
+    
+    top: 2rem;
     color: black;
     &:hover {
     color: #16BFFD;
