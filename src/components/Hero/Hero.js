@@ -9,11 +9,11 @@ import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding >
-    <LeftSection  >
-      <SectionTitle main left>
+    <LeftSection >
+      <SectionTitle style={{color: "#343a40"}} main left>
          Nayab Lone
          <Zoom right>
-          <Image src="/images/nayab1.jpg" alt="nayab1" width="310" color="#343a40" height="310" layout="responsive"/>
+          <Image src="/images/nayab1.jpg" alt="nayab1" width="310"  height="310" layout="responsive"/>
           </Zoom>
         </SectionTitle>
         <SectionText style={{color: "#343a40"}}>
