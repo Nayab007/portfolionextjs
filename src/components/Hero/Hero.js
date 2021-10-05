@@ -5,14 +5,14 @@ import Zoom from "react-reveal/Zoom";
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
-import { LeftSection } from './HeroStyles';
+import { LeftSection, RightSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding >
     <LeftSection >
-      <SectionTitle style={{color: "#343a40"}} main left>
-         Nayab Lone
-         <Zoom right>
+      <SectionTitle style={{color: "#343a40" }} main left>
+      Nayab Lone
+         <Zoom >
           <Image src="/images/nayab1.jpg" alt="nayab1" width="310"  height="310" layout="responsive"/>
           </Zoom>
         </SectionTitle>
@@ -21,6 +21,10 @@ const Hero = () => (
         </SectionText>
       
     </LeftSection>
+    <RightSection>
+
+    </RightSection>
+  
   </Section>
 );
 
