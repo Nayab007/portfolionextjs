@@ -25,7 +25,7 @@ const Hero = () => (
       </SectionText>
     </LeftSection>
     <RightSection>
-      <SectionTitle style={{ color: '#343a40' }} main right>
+      
        
         <Zoom>
           <Image
@@ -36,7 +36,7 @@ const Hero = () => (
             layout="responsive"
           />
         </Zoom>
-      </SectionTitle>
+      
     </RightSection>
   </Section>
 );
