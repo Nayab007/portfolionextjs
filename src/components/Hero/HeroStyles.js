@@ -7,7 +7,7 @@ export const LeftSection = styled.div`
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    background-color: #7ed6df;
+    background-color:   #7ed6df;
     background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
 
   
