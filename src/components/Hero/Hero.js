@@ -14,7 +14,7 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle style={{ color: '#343a40' }} main left>
-        Nayab Lone
+       
         <Zoom>
           <Image
             src="/images/nayab1.jpg"
