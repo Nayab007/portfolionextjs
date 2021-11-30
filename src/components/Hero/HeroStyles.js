@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   
-    width: 100%;
+    width: 85%;
   
     -webkit-background-clip: text;
     background-clip: text;
