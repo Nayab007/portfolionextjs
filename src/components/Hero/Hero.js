@@ -19,7 +19,7 @@ const Hero = () => (
         
         </Zoom>
       </SectionTitle>
-      <SectionText style={{ color: '#343a40' }}>
+      <SectionText style={{ color: '#343a40' }} main left>
         Building state-of-the-art, easy-to-use, user-friendly websites and
         applications is truly a passion of mine.
       </SectionText>
