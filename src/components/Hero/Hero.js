@@ -26,7 +26,7 @@ const Hero = () => (
     </LeftSection>
     <RightSection>
       <SectionTitle style={{ color: '#343a40' }} main right>
-        Nayab Lone
+       
         <Zoom>
           <Image
             src="/images/nayab1.jpg"
