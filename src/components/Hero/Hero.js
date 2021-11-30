@@ -13,7 +13,7 @@ import { LeftSection, RightSection } from './HeroStyles';
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle style={{ color: '#343a40', padding: '12vh' }} main left>
+      <SectionTitle style={{ color: '#343a40' }} main left>
         Nayab Lone
         <Zoom>
         
@@ -31,8 +31,8 @@ const Hero = () => (
           <Image
             src="/images/nayab1.jpg"
             alt="nayab1"
-            width="290"
-            height="290"
+            width="300"
+            height="300"
             layout="responsive"
           />
         </Zoom>
