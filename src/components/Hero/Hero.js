@@ -31,8 +31,8 @@ const Hero = () => (
           <Image
             src="/images/nayab1.jpg"
             alt="nayab1"
-            width="310"
-            height="310"
+            width="300"
+            height="300"
             layout="responsive"
           />
         </Zoom>
