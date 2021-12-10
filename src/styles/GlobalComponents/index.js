@@ -31,7 +31,7 @@ export const SectionTitle = styled.h2`
   width: max-content;
   max-width: 100%;
   background-clip: black;
-  background: linear-gradient(143.57deg, #082032 15.77%, rgba(255, 255, 255, 0.80) 60.15%);
+  background: linear-gradient(145.57deg, #082032 15.77%, rgba(255, 255, 255, 0.80) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
