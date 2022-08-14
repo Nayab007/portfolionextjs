@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub,  AiFillLinkedin } from 'react-icons/ai';
-import { DiDebian } from 'react-icons/di';
 import Reveal from 'react-reveal/Fade';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './HeaderStyles';
 
