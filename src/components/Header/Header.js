@@ -19,7 +19,7 @@ const Header = () =>  (
       <li>
       <Reveal left big>
         <Link href="#tech">
-          <NavLink>Tech</NavLink>
+          <NavLink>Tech S</NavLink>
         </Link>
         </Reveal>
       </li>
