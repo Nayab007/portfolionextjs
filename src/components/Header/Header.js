@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub,  AiFillLinkedin } from 'react-icons/ai';
 import Reveal from 'react-reveal/Fade';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons,} from './HeaderStyles';
+import { Container,  Div2, Div3, NavLink, SocialIcons,} from './HeaderStyles';
 
 const Header = () =>  (
   <Container >
