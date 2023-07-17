@@ -10,14 +10,14 @@ const Footer = () => {
     <LinkList>
     <LinkColumn>
       <LinkTitle>Resumé</LinkTitle>
-        <LinkItem a id="button" href="/images/Nayab-Lone.pdf" target="_blank" role="button" download>
+        <LinkItem a id="button" href="/images/NayabLone.pdf" target="_blank" role="button" download>
           
                 <a>Download  Resumé</a>
         </LinkItem>
       </LinkColumn>
       <LinkColumn>
         <LinkTitle>Call</LinkTitle>
-        <LinkItem >0738236700</LinkItem>
+        <LinkItem >3132470090</LinkItem>
       </LinkColumn>
       <LinkColumn>
         <LinkTitle>Email</LinkTitle>
